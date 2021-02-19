@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="buttons-styles.css" />
+    <title>Buttons Script</title>
+  </head>
+  <body>
+    <section class="text-wrapper">
+      <h1>Header</h1>
+      <p class="text-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in reprehenderit, nulla sunt vitae dolorum,
+        vel laboriosam, nam impedit recusandae debitis! Vel minima dolores, omnis reprehenderit distinctio pariatur!
+      </p>
+      <div class="background"></div>
+    </section>
+    <section class="buttons-wrapper">
+      <div class="buttons-container buttons-colors">
+        <button
+          class="user-interaction-button"
+          data-button-group-name="buttons-colors"
+          data-target-class-name="text-paragraph"
+          data-toggle-class-name="red"
+          data-active-class-name="buttons-colors-active"
+        ></button>
+        <button
+          class="user-interaction-button"
+          data-button-group-name="buttons-colors"
+          data-target-class-name="text-paragraph"
+          data-toggle-class-name="green"
+          data-active-class-name="buttons-colors-active"
+        ></button>
+        <button
+          class="user-interaction-button"
+          data-button-group-name="buttons-colors"
+          data-target-class-name="text-paragraph"
+          data-toggle-class-name="blue"
+          data-active-class-name="buttons-colors-active"
+        ></button>
+      </div>
+      <!-- <div class="buttons-container buttons-font">
+        <button class="user-interaction-button"></button>
+        <button class="user-interaction-button"></button>
+        <button class="user-interaction-button"></button>
+      </div> -->
+    </section>
+
+    <script src="buttons.js"></script>
+  </body>
+</html>

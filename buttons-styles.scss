@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: rgb(255, 251, 188);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .buttons-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    .user-interaction-button {
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      cursor: pointer;
+
+      &[data-toggle-class-name="red"] {
+        background: red;
+      }
+      &[data-toggle-class-name="green"] {
+        background: green;
+      }
+      &[data-toggle-class-name="blue"] {
+        background: blue;
+      }
+    }
+  }
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}

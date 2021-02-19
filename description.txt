@@ -1,0 +1,7 @@
+button class=”
+	user-interaction-button (do wybrania wszystkich buttonów na stronie)
+	buton-group-name (do wybrania grupy butonów)
+target-class-name (do wybrania elementów którym button ma zmieniać właściwości)
+toggle-class-name (do zdefinowania klasy podmienianej)
+active-class-name (do zdefinowania klasy aktywnego buttona)
+„
