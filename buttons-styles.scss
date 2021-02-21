@@ -37,6 +37,16 @@ body {
       &[data-toggle-class-name="blue"] {
         background: blue;
       }
+
+      &[data-toggle-class-name="pink"] {
+        background: pink;
+      }
+      &[data-toggle-class-name="violet"] {
+        background: violet;
+      }
+      &[data-toggle-class-name="grey"] {
+        background: grey;
+      }
     }
   }
 }
@@ -51,4 +61,24 @@ body {
 
 .blue {
   color: blue;
+}
+
+.pink {
+  background: pink;
+}
+
+.violet {
+  background: violet;
+}
+
+.grey {
+  background: grey;
+}
+
+.buttons-colors-active {
+  border: 4px solid white !important;
+}
+
+.buttons-background-active {
+  border: 4px solid black !important;
 }

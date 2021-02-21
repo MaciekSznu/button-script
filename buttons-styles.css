@@ -60,6 +60,18 @@ body .buttons-container .user-interaction-button[data-toggle-class-name="blue"] 
   background: blue;
 }
 
+body .buttons-container .user-interaction-button[data-toggle-class-name="pink"] {
+  background: pink;
+}
+
+body .buttons-container .user-interaction-button[data-toggle-class-name="violet"] {
+  background: violet;
+}
+
+body .buttons-container .user-interaction-button[data-toggle-class-name="grey"] {
+  background: grey;
+}
+
 .red {
   color: red;
 }
@@ -70,5 +82,25 @@ body .buttons-container .user-interaction-button[data-toggle-class-name="blue"] 
 
 .blue {
   color: blue;
+}
+
+.pink {
+  background: pink;
+}
+
+.violet {
+  background: violet;
+}
+
+.grey {
+  background: grey;
+}
+
+.buttons-colors-active {
+  border: 4px solid white !important;
+}
+
+.buttons-background-active {
+  border: 4px solid black !important;
 }
 /*# sourceMappingURL=buttons-styles.css.map */

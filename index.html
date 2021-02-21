@@ -9,42 +9,63 @@
   </head>
   <body>
     <section class="text-wrapper">
-      <h1>Header</h1>
+      <h1 class="header">Header</h1>
       <p class="text-paragraph">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in reprehenderit, nulla sunt vitae dolorum,
         vel laboriosam, nam impedit recusandae debitis! Vel minima dolores, omnis reprehenderit distinctio pariatur!
       </p>
-      <div class="background"></div>
     </section>
     <section class="buttons-wrapper">
+      <h3>Przyciski zmieniające kolor tekstu</h3>
       <div class="buttons-container buttons-colors">
         <button
           class="user-interaction-button"
           data-button-group-name="buttons-colors"
           data-target-class-name="text-paragraph"
           data-toggle-class-name="red"
-          data-active-class-name="buttons-colors-active"
+          data-active-button-class-name="buttons-colors-active"
         ></button>
         <button
           class="user-interaction-button"
           data-button-group-name="buttons-colors"
           data-target-class-name="text-paragraph"
           data-toggle-class-name="green"
-          data-active-class-name="buttons-colors-active"
+          data-active-button-class-name="buttons-colors-active"
         ></button>
         <button
           class="user-interaction-button"
           data-button-group-name="buttons-colors"
           data-target-class-name="text-paragraph"
           data-toggle-class-name="blue"
-          data-active-class-name="buttons-colors-active"
+          data-active-button-class-name="buttons-colors-active"
         ></button>
       </div>
-      <!-- <div class="buttons-container buttons-font">
-        <button class="user-interaction-button"></button>
-        <button class="user-interaction-button"></button>
-        <button class="user-interaction-button"></button>
-      </div> -->
+    </section>
+    <section class="buttons-wrapper">
+      <h3>Przyciski zmieniające kolor tła nagłówka</h3>
+      <div class="buttons-container buttons-background">
+        <button
+          class="user-interaction-button"
+          data-button-group-name="buttons-background"
+          data-target-class-name="header"
+          data-toggle-class-name="pink"
+          data-active-button-class-name="buttons-background-active"
+        ></button>
+        <button
+          class="user-interaction-button"
+          data-button-group-name="buttons-background"
+          data-target-class-name="header"
+          data-toggle-class-name="violet"
+          data-active-button-class-name="buttons-background-active"
+        ></button>
+        <button
+          class="user-interaction-button"
+          data-button-group-name="buttons-background"
+          data-target-class-name="header"
+          data-toggle-class-name="grey"
+          data-active-button-class-name="buttons-background-active"
+        ></button>
+      </div>
     </section>
 
     <script src="buttons.js"></script>
